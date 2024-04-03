@@ -17,7 +17,7 @@ junit = "4.13.2"
 kotlin = "1.9.23"
 ksp = "1.9.23-1.0.19"
 coil = "2.5.0"
-ludwig = "0.0.23"
+ludwig = "1.0.4"
 retrofit = "2.9.0"
 
 [libraries]
