@@ -95,10 +95,10 @@ if [[ $APPNAME ]]; then
 fi
 
 #echo "Removing additional files"
-#rm -rf .google/
-#rm -rf .github/
+rm -rf .google/
+rm -rf .github/
 
-#rm -rf .git/
+rm -rf .git/
 
 echo "Cleaning up"
 find . -name "*.bak" -type f -delete
