@@ -45,6 +45,7 @@ do
   mv $n/java/$DEFAULT_PACKAGE_SUBDIR/* $n/java/$SUBDIR
   echo "Removing old $n/java/$DEFAULT_PACKAGE_SUBDIR"
   rm -rf $n/java/$DEFAULT_PACKAGE_SUBDIR
+  find $n/java/com -type d -empty -delete
 done
 
 # Rename package and imports

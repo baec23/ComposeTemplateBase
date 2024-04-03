@@ -34,6 +34,6 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "CustomizerTest"
+rootProject.name = "ComposeTemplate"
 
 include(":app")
